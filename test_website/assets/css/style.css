@@ -1,0 +1,171 @@
+
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	border-bottom: 2px solid brown;
+	border-right: 1px solid gray;
+}	
+
+th{
+	font-weight: lighter;
+	border-spacing: 4px, 10px;
+	border: 1px solid orange;
+	color: white;
+	background-color: grey;
+	border: 2px solid orange;
+}
+
+.col6{width: 400px;}
+
+.col5{width: 250px;}
+
+.col4{width: 150px;}
+
+.col3{width: 100px;}
+
+.col2{width: 100px;}
+
+.col1{width: 100px;}
+
+.row3{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid red;
+}
+
+#b_cell{
+	border: 1px solid gray;
+}
+
+.group1{
+	border: 1px solid gray;
+}
+
+.group0{
+	border: 1px solid gray;
+}
+
+.row2{
+	border-bottom: 2px solid brown;
+}
+
+#br_cell{
+	border-bottom: 2px solid brown;
+}
+
+#r_cell{
+	border-bottom: 1px solid red;
+}
+
+.subtotal{
+	text-align: right;
+	border: 1px solid purple;
+}
+
+span.st1{
+	color: green;
+	font-weight: bold;
+	font-size: xx-large;
+	font-family: "Courier New", "Lucida Console", Arial;
+}
+
+p.st2{
+	background-color: LightBlue;
+	font-style:italic;
+	text-decoration: underline;
+	font-size: large;
+	text-align:right;
+}
+
+p.st3{
+	text-shadow: 3px 3px 5px black;
+	font-weight: bolder;
+	vertical-align: middle;
+	text-indent: 15px;
+	letter-spacing: 30px;
+	text-transform: capitalize;
+}
+
+.form2{
+	position: relative;
+	top:-538px;
+	right:-350px;
+	height:0px;
+}
+
+.cmnforms{
+	margin: 30px 0px;
+	padding: 5px;
+	width: 300px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+
+p.media{
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+#youtube{
+	position: relative;
+	right: -620px;
+}
+
+.form_name{
+	font-size: xx-small;
+	color: grey;
+}
+
+#fname{
+	margin: 1px 0px;
+	padding: 5px;
+	width: 300px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+
+.submit{ 
+	padding: 8px;
+	width: 80px;
+	margin-top:30px;
+}
+
+#msg{
+	margin: 1px 0px;
+	width: 300px;
+	height: 50px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+	resize: none;
+}
+
+#gender{
+	margin: 1px 0px;
+	padding: 5px;
+	width: 310px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+
+#country{
+	padding: 5px;
+	width: 100px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+
+#phone{
+	padding: 6px;
+	width: 193px;
+	border: 0px;
+	border-bottom: 1px solid grey;
+}
+
+#under_phone{
+	position:relative;
+	right:-110px;
+}
+
+.right{
+	text-align: right;
+}
