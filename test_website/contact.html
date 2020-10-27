@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>3 Column Layout</title>
-<link rel="stylesheet" href="assets/css/layout.css">
-<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
+
 <body>
-<header class="header">
-	<a href="index.html">
-		<img src="assets/img/logo.png" alt="LOGO"></header>
-	</a>
-</header>
-<div class="container">
-<main class="center column">
-<article>
-<h1>Contact</h1>
-<h2>User details</h2>
-<form action="url" id="form1" method="get">
-	<div>
-	<label for="fname" class="form_name">Full name *</label><br>
-	<input type="text" id="fname" name="fname" required><br>
-	<label for="bday"></label>
-	<input required placeholder="Your birthday*" type="date" id="bday" name="birthday" class="cmnforms"><br>
-	<select id="gender" name="gender" placeholder="Gender">
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/img/logo.png" alt="LOGO"></header>
+    </a>
+    </header>
+    <div class="container">
+        <main class="center column">
+            <article>
+                <h1>Contact</h1>
+                <h2>User details</h2>
+                <form action="url" id="form1" method="get">
+                    <div>
+                        <label for="fname" class="form_name">Full name *</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="bday"></label>
+                        <input required placeholder="Your birthday*" type="date" id="bday" name="birthday" class="cmnforms"><br>
+                        <select id="gender" name="gender" placeholder="Gender">
 	<option value="Male">Male</option>
 	<option value="Female">Female</option>
 	<option value="Not stated">Not stated</option>
 	</select><br><br>
-	<label for="country" class="form_name">Country</label><br> 	
-	<select id="country" name="country">
+                        <label for="country" class="form_name">Country</label><br>
+                        <select id="country" name="country">
 	<option value="Cuba">Cuba</option>
 	<option value="France">France</option>
 	<option value="Germany">Germany</option>
@@ -38,46 +40,47 @@
 	<option value="Ukraine">Ukraine</option>
 	<option value="USA">USA</option><br>
 	</select>
-	<input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required placeholder="Phone*"><br>
-	<div class="form_name" id="under_phone">Mobile: 094 123 123<span class="right">Fixed:2123 1234</span></div>
-	<div class="form_name">
-	Bio
-	<br><textarea id="msg" name="bio" rows="10" cols="30" maxlength="256">
-	</textarea><br>
-	Tell us about yourself</div>
-	<p><input type="submit" value="Submit" disabled class="submit"></p>
-	</div>
-	<div class="form2">
-	<h2>Account details</h2>
-	<input type="text" id="username" name="username" required placeholder="Username *" class="cmnforms"><br>
-	<input type="email" id="email" name="email" required placeholder="Email *" class="cmnforms"><br>
-	<input type="psw" id="psw" name="password" required placeholder="Password *" class="cmnforms"><br>
-	<input type="psw" id="psw_conf" required placeholder="Confirm password *" class="cmnforms"><br>
-	<input type="checkbox"><b>I accept terms and conditions</b><br>
-	<input type="submit" value="Submit" disabled class="submit"><br>
-	</div>
-</form>
-</article>
-</main>
-<nav class="left column">
-<h3>Left heading</h3>
-<ul>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-<h3>Left heading</h3>
-<ul>
-<li><a href="media.html">Media</a></li>
-<li><a href="table.html">Table</a></li>
-</ul>
-</nav>
-<div class="right column">
-<h3>Right heading</h3>
-<p></p>
-</div>
-</div>
-<div class="footer-wrapper">
-<footer class="footer"><img src="assets/img/logo.png" alt="LOGO"></footer>
-</div>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required placeholder="Phone*"><br>
+                        <div class="form_name" id="under_phone">Mobile: 094 123 123<span class="right">Fixed:2123 1234</span></div>
+                        <div class="form_name">
+                            Bio
+                            <br><textarea id="msg" name="bio" rows="10" cols="30" maxlength="256">
+	</textarea><br> Tell us about yourself</div>
+                        <p><input type="submit" value="Submit" disabled class="submit"></p>
+                    </div>
+                    <div class="form2">
+                        <h2>Account details</h2>
+                        <input type="text" id="username" name="username" required placeholder="Username *" class="cmnforms"><br>
+                        <input type="email" id="email" name="email" required placeholder="Email *" class="cmnforms"><br>
+                        <input type="psw" id="psw" name="password" required placeholder="Password *" class="cmnforms"><br>
+                        <input type="psw" id="psw_conf" required placeholder="Confirm password *" class="cmnforms"><br>
+                        <input type="checkbox"><b>I accept terms and conditions</b><br>
+                        <input type="submit" value="Submit" disabled class="submit"><br>
+                    </div>
+                </form>
+            </article>
+        </main>
+        <nav class="left column">
+            <h3>Left heading</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="slider.html">Slider</a></li>
+            </ul>
+            <h3>Left heading</h3>
+            <ul>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+        <div class="right column">
+            <h3>Right heading</h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <footer class="footer"><img src="assets/img/logo.png" alt="LOGO"></footer>
+    </div>
 </body>
+
 </html>

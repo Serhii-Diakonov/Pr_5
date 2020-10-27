@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>3 Column Layout</title>
-<link rel="stylesheet" href="assets/css/layout.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slide.css">
+
 </head>
+
 <body>
-<header class="header">
-	<a href="index.html">
-		<img src="assets/img/logo.png" alt="LOGO"></header>
-	</a>
-</header>
-<div class="container">
-<main class="center column">
-<article>
-<h1>Slider</h1>
-<p></p>
-</article>
-</main>
-<nav class="left column">
-<h3>Left heading</h3>
-<ul>
-<li><a href="about.html">About</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-<h3>Left heading</h3>
-<ul>
-<li><a href="media.html">Media</a></li>
-<li><a href="table.html">Table</a></li>
-</ul>
-</nav>
-<div class="right column">
-<h3>Right heading</h3>
-<p></p>
-</div>
-</div>
-<div class="footer-wrapper">
-<footer class="footer"><img src="assets/img/logo.png" alt="LOGO"></footer>
-</div>
+    <header class="header">
+        <a href="index.html">
+            <img src="assets/img/logo.png" alt="LOGO"></header>
+    </a>
+    </header>
+    <div class="container">
+        <main class="center column">
+            <article>
+                <h1>Slider</h1>
+                <p>
+                    <div id="mySlider"></div>
+                    <script src="assets/js/slider.js"></script>
+                    <button id="prevButton" onclick="prevSlide()"><</button>
+                    <button id="nextButton" onclick="nextSlide()">></button>
+                </p>
+            </article>
+        </main>
+        <nav class="left column">
+            <h3>Left heading</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="slider.html">Slider</a></li>
+            </ul>
+            <h3>Left heading</h3>
+            <ul>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+        <div class="right column">
+            <h3>Right heading</h3>
+            <p></p>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <footer class="footer"><img src="assets/img/logo.png" alt="LOGO"></footer>
+    </div>
 </body>
+
 </html>
