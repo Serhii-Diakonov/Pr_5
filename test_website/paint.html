@@ -6,8 +6,7 @@
     <title>3 Column Layout</title>
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/slide.css">
-
+    <link rel="stylesheet" href="assets/css/canvas.css">
 </head>
 
 <body>
@@ -19,12 +18,14 @@
     <div class="container">
         <main class="center column">
             <article>
-                <h1>Slider</h1>
+                <h1>Paint here</h1>
                 <p>
-                    <div id="mySlider"></div>
-                    <script src="assets/js/slider.js"></script>
-                    <button id="prevButton" onclick="prevSlide()"><</button>
-                    <button id="nextButton" onclick="nextSlide()">></button>
+                    <canvas id="draw" width="1000" height="392"></canvas>
+                    <button id="clear-button" onmousedown="clearCanvas()">Clear</button>
+                    <script src="assets/js/paint.js"></script>
+                    <input id="palette" type="color" value="#df4b26" oninput="changeColor()">
+                    <input id="range" type="range" min="3" max="110" step="2" value="100" oninput="changeSize()">
+                    <img id="point" src="public/images/point.png">
                 </p>
             </article>
         </main>
